@@ -24,4 +24,5 @@ services:
     environment:
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
-
+    depends_on:
+      - backend
