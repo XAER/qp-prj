@@ -21,4 +21,7 @@ services:
       - ./frontend:/app
     env_file:
       - ./env/front.env
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
 
