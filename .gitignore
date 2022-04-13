@@ -50,7 +50,7 @@ sketch
 ./env/*.env
 ./env/front.env
 ./env/back.env
-
+env/
 # End of https://www.toptal.com/developers/gitignore/api/go,react
 
 
